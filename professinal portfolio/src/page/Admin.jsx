@@ -34,7 +34,7 @@ fetchBlogs();
 const fetchBlogs = async () => {
 try {
 const res = await axios.get(
-"http://localhost:5000/api/blogs"
+"https://poojan-portfolio-rzpk.onrender.com/api/blogs"
 );
 
   setBlogs(res.data);
