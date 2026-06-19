@@ -63,7 +63,7 @@ e.preventDefault();
 
 try {
   await axios.post(
-    "http://localhost:5000/api/add-blog",
+    "https://poojan-portfolio-rzpk.onrender.com/api/add-blog",
     formData
   );
 
@@ -87,7 +87,7 @@ try {
 const deleteBlog = async (id) => {
 try {
 await axios.delete(
-`http://localhost:5000/api/delete-blog/${id}`
+`https://poojan-portfolio-rzpk.onrender.com/api/delete-blog/${id}`
 );
 
   alert("Blog Deleted Successfully");
