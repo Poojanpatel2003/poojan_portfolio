@@ -26,11 +26,14 @@ function AdminLogin() {
     navigate("/admin");
 
   } catch (error) {
+  console.log(error);
+  console.log(error.response);
+  console.log(error.response?.data);
 
-    setError(
-      "Unauthorized Access! Invalid username or password."
-    );
-  }
+  setError(
+    "Unauthorized Access! Invalid username or password."
+  );
+}
 };
 
   return (
