@@ -80,8 +80,6 @@ try {
 } catch (error) {
   console.log(error);
 }
-
-
 };
 
 const deleteBlog = async (id) => {
@@ -96,8 +94,6 @@ await axios.delete(
 } catch (error) {
   console.log(error);
 }
-
-
 };
 
 const filteredBlogs = blogs.filter((blog) => {
@@ -340,7 +336,6 @@ return ( <div className="min-h-screen bg-[#0d1117] text-white">
 
           </div>
         )}
-
       </div>
 
     </div>
@@ -348,8 +343,6 @@ return ( <div className="min-h-screen bg-[#0d1117] text-white">
   </div>
 
 </div>
-
-
 );
 };
 
